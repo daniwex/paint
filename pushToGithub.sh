@@ -26,6 +26,6 @@ git add .
 echo "please write a meaningful comment for this commit";
 read comment
 git commit -m 'new commit'
-git push $remoteName main
+git push $remoteName master
 
 fi
